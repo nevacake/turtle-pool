@@ -1,0 +1,9 @@
+due to the license, this file should not be deleted.
+
+because the code is small and badly formatted, you are allowed to take some for your website.
+
+devlog:
+ver PRE-RELEASE-1.0.0: basic structure added. basic upgrades and achievements
+
+
+this file shouldn't be long.

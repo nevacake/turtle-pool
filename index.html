@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--
+
+        shape
+
+    -->
+    <title>turtle pool</title>
+    <!--
+        google fonts
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+    <link rel="icon" href="res/favicon.ico" type="image/x-icon">
+    <audio id="aud">
+        <source src="res/plus.wav" type="audio/wav">
+        
+    </audio>
+    <style>
+        body {
+            font-family: "VT323";
+            text-align: center;
+            background-image: url("res/a.png");
+            color: #0e1728
+        }
+
+        .cell {
+            cursor: crosshair;
+        }
+
+        .pointer {
+            cursor: pointer;
+        }
+    </style>
+    <script src="script/main.js"></script>
+    
+</head>
+<body>
+    <br>
+    <h3><b>turtle pool</b></h3>
+    <p>you want a pool of turtles. you have a pool, but you need turtles.</p>
+    <p>you can invite them over. you just need to figure out how to do that</p>
+    <p>every time you invite a turtle, you will earn a point</p><br>
+    <img src="res/pool.png"  width="32" height="32" class="cell" onclick="something()"><br><br>
+    <div class="b"><br>
+        <br>
+        <p id="b">points: 0</p>
+        <p id="i">turtles per invite (turtle toy): 1</p>
+        <p class="o"id="ips">turtles per second (turtle food): 0</p>
+    </div>
+    <div class="nothing"><br><br>
+        <p class="pointer" id="x1" onclick="x1()" onmouseover="hov('x1')" onmouseleave="nohov('x1')">5 points: buy turtle toy</p>
+        <p class="pointer" id="x2" onclick="x2()" onmouseover="hov('x2')" onmouseleave="nohov('x2')">7 points: buy turtle food</p>
+
+    </div>
+    <div>
+
+        <br><br>
+        <p class="" id="t"></p>
+    </div>
+</body>
+</html>
