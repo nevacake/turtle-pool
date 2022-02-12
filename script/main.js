@@ -81,13 +81,9 @@ function x2() {
 }
 
 function spin() {
-    if (s > 99) {
-        if (Math.random() > 0.5) {
-            s = s + 100
-        } else {
-            s = s - 100
-        }
-        document.getElementById("b").innerHTML = "points: " + s.toString()
-        document.getElementById("spin").style.display = "none";
+    if (Math.random() > 0.5) {
+        s = s + 100
     }
+    document.getElementById("b").innerHTML = "points: " + s.toString()
+    document.getElementById("spin").style.display = "none";
 }
