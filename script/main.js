@@ -24,6 +24,11 @@ function ram () {
     } else {
         document.getElementById("t").innerHTML = ""
     }
+    if (s > 0) {
+        document.getElementById("pool").src = "res/pool-full.png"
+    } else {
+        document.getElementById("pool").src = "res/pool.png"
+    }
 }
 
 function iips() {
